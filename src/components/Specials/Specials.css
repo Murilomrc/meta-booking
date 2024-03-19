@@ -1,0 +1,14 @@
+.specials-wrapper {
+    margin: 8vh auto;
+    max-width: var(--media-desktop);
+    width: 96vw;
+}
+
+.specials-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.specials-cards img {
+    height: 200px;
+}

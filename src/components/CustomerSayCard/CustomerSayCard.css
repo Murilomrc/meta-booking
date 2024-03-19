@@ -1,0 +1,36 @@
+.customer-say-card-wrapper {
+    background-color: #fff;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 1.6rem;
+}
+
+.customer-say-card-wrapper img {
+    width: 8rem;
+    margin: 0 auto 0.5rem auto;
+    border-radius: 50%;
+}
+
+.customer-say-card-wrapper h4 {
+    font-size: 1.6rem;
+    margin: 1rem auto;
+}
+
+.customer-say-card-wrapper span {
+    color: #F4CE14;
+    font-size: 1.8rem;
+}
+
+.customer-say-card-wrapper p {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 949px) {
+    .customer-say-card-wrapper {}
+}

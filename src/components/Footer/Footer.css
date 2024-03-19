@@ -1,0 +1,119 @@
+.footer-wrapper {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.footer-wrapper>div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: var(--media-desktop);
+}
+
+.footer-wrapper-logo {
+    grid-column: 1;
+    width: 8rem;
+}
+
+.footer-wrapper h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    margin-bottom: 1rem;
+}
+
+.footer-wrapper a {
+    color: #FFF;
+    transition: color 0.5s;
+}
+
+.footer-wrapper a:hover,
+.footer-wrapper a:focus {
+    color: #F4CE14;
+}
+
+.footer-wrapper-nav {
+    grid-column: 2;
+}
+
+.footer-wrapper-nav ul {
+    list-style-type: none;
+}
+
+.footer-wrapper-nav li {
+    margin-bottom: 0.25rem;
+}
+
+.footer-wrapper-contact {
+    grid-column: 3;
+}
+
+.footer-wrapper-contact svg {
+    margin-right: 0.5rem;
+}
+
+.footer-wrapper-contact p {
+    margin-bottom: 0.25rem;
+}
+
+.footer-wrapper-social {
+    grid-column: 4;
+}
+
+.footer-wrapper-social svg {
+    margin-right: 1rem;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+@media (max-width: 927px) {
+    .footer-wrapper .container {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: auto auto;
+    }
+
+    .footer-wrapper-social {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 789px) {
+    .footer-wrapper .container {
+        grid-template-columns: auto auto;
+    }
+
+    .footer-wrapper-contact {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 2rem;
+    }
+
+    .footer-wrapper-social {
+        grid-column: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-wrapper .container {
+        grid-template-columns: auto;
+    }
+
+    .footer-wrapper-logo {
+        grid-row: 1;
+    }
+
+    .footer-wrapper-nav {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 2rem;
+    }
+
+    .footer-wrapper-contact {
+        grid-row: 3;
+    }
+
+    .footer-wrapper-social {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}

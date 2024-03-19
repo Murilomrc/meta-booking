@@ -1,0 +1,29 @@
+.chicago-wrapper {
+    margin: 8vh auto;
+    max-width: var(--media-desktop);
+    width: 96vw;
+    display: flex;
+    gap: 16px;
+}
+
+.chicago-wrapper h1 {
+    color: var(--color-black);
+}
+
+.chicago-wrapper h2 {
+    text-align: left;
+}
+
+.chicago-wrapper p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+.chicago-text {
+    width: 50%;
+}
+
+.chicago-wrapper img {
+    border-radius: .8rem;
+    width: 50%;
+}

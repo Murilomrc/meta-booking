@@ -1,0 +1,21 @@
+.booking-page-wrapper {
+    margin: 8vh auto;
+    max-width: var(--media-desktop);
+    width: 96vw;
+}
+
+.booking-page-wrapper h2 {
+    color: var(--color-black);
+}
+
+.booking-page-wrapper>div {
+    display: flex;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: .8rem;
+    background: url('../../assets/images/chefs-mario-and-adrian_a.jpg');
+}
+
+.booking-page-wrapper div div:nth-last-of-type(1) {
+    flex-grow: 1;
+}
